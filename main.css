@@ -3,6 +3,8 @@
 body {
   background: url('https://s26.postimg.org/54fdxz0rd/modern-art-backgrounds-_For-_Desktop-_Wallpaper.jpg');
   background-size: cover;
+  color: white;
+  text-align: center;
   margin: 0px;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -56,6 +58,7 @@ nav ul li a:hover {
 
   .keep-left {
     float: left;
+    text-align: center;
   }
 
   .keep-middle {
@@ -69,12 +72,28 @@ nav ul li a:hover {
   .keep-right {
     clear: both;
     float: right;
+    text-align: center;
+  }
+
+  p {
+    text-align: center;
+  }
+
+  .seashell-background {
+    background: rgba(255,245,238, 0.8);
+    padding: 10px;
+    text-align: center;
   }
 
   .small-image {
     border: 5px dotted seashell;
     margin: 0px;
     max-width: 300px;
+  }
+
+  .white-text {
+    color: white;
+    text-shadow: 2px 2px black;
   }
 
 .word-list span:hover {
