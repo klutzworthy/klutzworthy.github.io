@@ -6,6 +6,7 @@
   <link href="main.css" rel="stylesheet" type="text/css"/>
   <link href='https://fonts.googleapis.com/css?family=Russo+One' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <body>
@@ -23,9 +24,42 @@
     </nav>
   </header>
 
+<br>
+<br>
+  <div>
+    <a target="_blank" href="https://www.facebook.com/klutzworthy" class="fa fa-facebook"></a>
+    <a target="_blank" href="https://twitter.com/klutzworthy" class="fa fa-twitter"></a>
+    <a target="_blank" href="https://www.instagram.com/klutzworthy/?hl=en" class="fa fa-instagram"></a>
+    <a target="_blank" href="https://github.com/klutzworthy" class="fa fa-github"></a>
+    <a target="_blank" href="https://www.linkedin.com/in/elizabeth-francis/" class="fa fa-linkedin"></a>
+  </div>
+<br>
+<br>
+<div class="container">
+  <form method="post" action="email.php">
 
+    <label>First Name</label>
+    <input type="text" name="firstname" placeholder="Your first name..">
 
+    <label>Last Name</label>
+    <input type="text" name="lastname" placeholder="Your last name..">
+
+    <label>Subject</label>
+    <input type="text" name="subject" placeholder="Your subject..">
+
+    <label>Email</label>
+    <input type="text" name="email" placeholder="Your email..">
+
+    <label>Message</label>
+    <textarea name="message" placeholder="Write your message here.." style="height:200px"></textarea>
+
+    <input type="submit" value="Submit">
+
+  </form>
+</div>
+<br>
 <footer>&copy; 2018 Elizabeth Unruh</footer>
+
 
 <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
