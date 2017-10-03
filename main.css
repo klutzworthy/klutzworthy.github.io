@@ -107,6 +107,18 @@ nav ul li a:hover {
   text-shadow: 2px 2px black;
 }
 
+.center {
+  justify-content: center;
+}
+
+.portfolio {
+  border: 5px solid seashell;
+  height: 300px;
+  margin: 10px 0px;
+  width: 75%;
+}
+
+
 footer {
   color: white;
   font-size: 10px;
