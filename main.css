@@ -93,7 +93,7 @@ nav ul li a:hover {
   }
 
   .medium-image {
-    width: 50%;
+    max-width: 50%;
   }
 
   .white-text {
