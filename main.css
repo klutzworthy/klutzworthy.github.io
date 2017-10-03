@@ -80,6 +80,7 @@ nav ul li a:hover {
   }
 
   .seashell-background {
+    background: rgb(55,245,238);
     background: rgba(255,245,238, 0.7);
     padding: 10px;
     text-align: center;
