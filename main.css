@@ -92,6 +92,10 @@ nav ul li a:hover {
     max-width: 300px;
   }
 
+  .medium-image {
+    width: 50%;
+  }
+
   .white-text {
     color: white;
     text-shadow: 2px 2px black;
