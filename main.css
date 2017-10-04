@@ -1,6 +1,7 @@
 @import url(https://fonts.googleapis.com/css?family=Russo+One);
+
 body {
-  background: url('https://s26.postimg.org/54fdxz0rd/modern-art-backgrounds-_For-_Desktop-_Wallpaper.jpg') no-repeat center center fixed;
+  background: url('https://s26.postimg.org/54fdxz0rd/modern-art-backgrounds-_For-_Desktop-_Wallpaper.jpg');
   background-size: cover;
   color: white;
   text-align: center;
@@ -9,6 +10,7 @@ body {
   -o-background-size: cover;
   -webkit-background-size: cover;
 }
+
 
 header {
   background: seashell;
